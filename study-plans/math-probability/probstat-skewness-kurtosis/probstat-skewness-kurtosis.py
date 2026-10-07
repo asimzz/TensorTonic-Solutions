@@ -6,7 +6,7 @@ def skewness_kurtosis(data: list) -> dict:
     """
     centered = data - np.mean(data)
     n = len(data)
-    s = np.std(data, axis=None, ddof=1)
+    s = np.std(data, ddof=1)
     s_contribution = centered / s
     signed_contribution = s_contribution ** 3
     k_contribution = s_contribution ** 4
