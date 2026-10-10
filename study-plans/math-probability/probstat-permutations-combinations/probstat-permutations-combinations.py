@@ -10,6 +10,6 @@ def perms_and_combs(n: int, r: int) -> list:
     N = f(n)
     n_minus_r_fact = f(n-r)
     P = N // n_minus_r_fact
-    C = N // (f(r) * n_minus_r_fact)
+    C = P // f(r)
 
     return [P, C, N]
