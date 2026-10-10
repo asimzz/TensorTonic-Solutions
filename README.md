@@ -21,6 +21,7 @@ Verified machine learning implementations completed on [TensorTonic](https://www
 
 | Problem | Description | Link |
 |---|---|---|
+| Implement Dot Product | Compute the algebraic dot product and geometric angle relationship for two equal-length NumPy vectors. | https://www.tensortonic.com/problems/la-dot-product |
 | Mean, Median, Mode | Calculate the mean, median, and deterministic mode of a numeric collection, including tied frequencies. | https://www.tensortonic.com/problems/mean-median-mode |
 | Basic Probability Rules | Compute union, complement, and exclusive-event probabilities from two event probabilities and their intersection. | https://www.tensortonic.com/problems/probstat-basic-probability-rules |
 | Bayes' Theorem | Compute a posterior probability from a prior, likelihood, and false-positive rate using Bayes' theorem. | https://www.tensortonic.com/problems/probstat-bayes-theorem |
