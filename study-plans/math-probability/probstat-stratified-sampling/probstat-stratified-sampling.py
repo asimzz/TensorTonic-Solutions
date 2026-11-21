@@ -6,8 +6,6 @@ def stratified_sample(strata_means: list, strata_stds: list, strata_sizes: list,
     """
     weights = [N_h / sum(strata_sizes) for N_h in strata_sizes]
     ideal_allocs = [total_sample * W_h for W_h in weights]
-    
-    
     allocations = [max(1, floor(x)) for x in ideal_allocs]
     remainders = [
         (x - floor(x) if x >= 1 else 0.0, i)
